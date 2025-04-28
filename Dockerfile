@@ -7,7 +7,7 @@ LABEL c4ai.version=$C4AI_VER
 
 # Set build arguments
 ARG APP_HOME=/app
-ARG GITHUB_REPO=https://github.com/unclecode/crawl4ai.git
+ARG GITHUB_REPO=https://github.com/Claw256/crawl4ai.git
 ARG GITHUB_BRANCH=main
 ARG USE_LOCAL=true
 
@@ -27,7 +27,7 @@ ARG INSTALL_TYPE=default
 ARG ENABLE_GPU=false
 ARG TARGETARCH
 
-LABEL maintainer="unclecode"
+LABEL maintainer="Claw256"
 LABEL description="🔥🕷️ Crawl4AI: Open-source LLM Friendly Web Crawler & scraper"
 LABEL version="1.0"
 
